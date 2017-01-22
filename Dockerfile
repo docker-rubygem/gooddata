@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.6.8
+ENV VERSION=0.6.9
 
 RUN gem install gooddata --version ${VERSION} --no-format-exec
 
